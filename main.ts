@@ -7,7 +7,7 @@ interface MyPluginSettings {
 }
 
 const DEFAULT_SETTINGS: MyPluginSettings = {
-	classPrefix: "tailor-",
+	classPrefix: "selected-theme-",
 };
 
 export default class MyPlugin extends Plugin {
@@ -52,7 +52,7 @@ export default class MyPlugin extends Plugin {
 
 		const selectedThemeSanitized = selectedTheme
 			.toLowerCase()
-			.replace(" ", "");
+			.replace(/[^a-z0-9]/gim, "");
 
 		const newThemeClassName =
 			this.settings.classPrefix + selectedThemeSanitized;
