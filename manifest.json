@@ -1,9 +1,9 @@
 {
 	"id": "obsidian-theme-snippet-tailor",
 	"name": "Snippet Tailor Plugin",
-	"version": "1.0.0",
+	"version": "1.0.4",
 	"minAppVersion": "0.15.0",
-	"description": "This is a sample plugin for Obsidian. This plugin demonstrates some of the capabilities of the Obsidian API.",
+	"description": "Obsidian Plugin to create theme specific snippets.",
 	"author": "Obsidian",
 	"authorUrl": "https://obsidian.md",
 	"isDesktopOnly": false

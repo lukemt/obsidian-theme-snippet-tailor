@@ -7,7 +7,7 @@ interface MyPluginSettings {
 }
 
 const DEFAULT_SETTINGS: MyPluginSettings = {
-	classPrefix: "theme-",
+	classPrefix: "tailor-",
 };
 
 export default class MyPlugin extends Plugin {
